@@ -1,0 +1,49 @@
+.container{
+    top: 5vh;
+    border: 2px solid rgba(0, 0, 0, 0.658);
+    width: 90vw;
+    height: 90vh;
+    margin: auto;
+    position: relative;
+    box-shadow: 0px 0px 4px black;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: rgba(116, 60, 138, 0.678);
+}
+
+.top{
+    height: 20%;
+    width: 100%;
+    background-color: rgb(82, 143, 63);
+    font-size: 13pt;
+    border-bottom: 1px solid rgb(100, 100, 100);
+}
+
+#iframe{
+    height: 80%;
+    width: 90vw;
+    background-color: rgb(138, 60, 60);
+}
+iframe{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(133, 138, 60);
+}
+
+.color-selector{
+    display: inline-block;
+}
+
+.menu-iten{
+    cursor: pointer;
+    margin: 0.5vh 1vw;
+}
+
+div.menu-iten{
+    display: inline-block;
+}
+
+svg{
+    width: 3vw;
+    height: 3vh;
+}
